@@ -20,7 +20,8 @@ public class MGSelectionDemo : ModuleRules
 			"GameplayStateTreeModule",
 			"Niagara",
 			"UMG",
-			"Slate"
+			"Slate",
+			"MGSpatialSelection"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
