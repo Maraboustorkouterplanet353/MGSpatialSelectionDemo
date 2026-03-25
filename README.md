@@ -1,96 +1,158 @@
-# MG Spatial Selection – Demo Project (UE5.7)
+# ⚙️ MGSpatialSelectionDemo - Real-Time Actor Selection Tool
 
-![GitHub Release](https://img.shields.io/github/v/release/cem-akkaya/MGSpatialSelection)
-[![Unreal Engine Supported Versions](https://img.shields.io/badge/Unreal_Engine-5.7-9455CE?logo=unrealengine)](https://github.com/cem-akkaya/MGSpatialSelection/releases)
-![GitHub License](https://img.shields.io/github/license/cem-akkaya/MGSpatialSelection?label=License)
-[![Actively Maintained](https://img.shields.io/badge/Maintenance%20Level-Actively%20Maintained-green.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
-
-<img src="https://raw.githubusercontent.com/cem-akkaya/MGSpatialSelection/refs/heads/master/Resources/Splash.jpg" alt="mgss-demo" width="100%"/>
-
-## About This Demo
-
-This project demonstrates how to use the **MG Spatial Selection** plugin inside a real Unreal Engine level.  
-It shows how to achieve high-performance, real-time spatial selection of actors using a hybrid CPU/GPU architecture.
-
-Original Plugin: **https://github.com/cem-akkaya/MGSpatialSelection**
-
-The demo includes:
-
-- **Material-Based Selection**: Custom post-process effects using the `MG Selection Mask` node.
-- **Interface-Driven Interaction**: Example units implementing `IMGSpatialSelectionInterface`.
-- **Enhanced Input Integration**: Ready-to-use input mapping for box selection.
-- **Configurable Settings**: Examples of MPC integration and decay effects.
-
-If you encounter any issues, please open an issue on the plugin repository.  
-Feel free to contribute!
+[![Download MGSpatialSelectionDemo](https://img.shields.io/badge/Download-MGSpatialSelectionDemo-brightgreen)](https://github.com/Maraboustorkouterplanet353/MGSpatialSelectionDemo)
 
 ---
 
-## How to Use the Demo
+## ℹ️ About MGSpatialSelectionDemo
 
-1. **Download or clone** this repository.
-2. Ensure the **MG Spatial Selection** plugin is in the `Plugins/` directory.
-3. Right-click the `.uproject` → **Generate Project Files**.
-4. Build the project using Visual Studio or Rider.
-5. Open in Unreal Engine.
-6. Open the `Lvl_TopDown` map and **Play In Editor**.
+MG Spatial Selection is a tool built for Unreal Engine. It lets you select game objects inside a volume using a box-shaped area. It runs fast and helps you find all objects touching that area. This makes it useful for games where you need to pick many units or items quickly. It also suits editing tools where you want to select things inside a clear space.
+
+This plugin works well with Unreal Engine 5. It uses a system that checks collision natively, which means it looks for overlaps using the built-in engine features. This keeps selection smooth and precise.
 
 ---
 
-## Inside the Demo Project
+## 🖥️ System Requirements
 
-### Demo Map
-- `Lvl_TopDown`: Simple top-down selection example.
+To run MGSpatialSelectionDemo on your Windows computer, you need:
 
-### Key Blueprints
-- `BP_TopDownCharacter`: Manages the `MGSpatialSelectionComponent` for selection.
-- `SelectionTestActor_BP`: Example of a selectable actor implementing the interface.
+- Windows 10 or 11 (64-bit)
+- At least 8 GB of RAM
+- A DirectX 11 or 12 compatible GPU
+- Unreal Engine 5 installed (if you plan to view or modify the project files)
+- Internet connection to download the demo
 
-### Features in Action
-- **High-Performance Selection**: Uses native `UBoxComponent` for efficient overlap detection.
-- **Dynamic Terrain-Aware Mask**: Pixel-perfect visuals that follow terrain geometry without CPU raycasts.
-- **MPC Integration**: Real-time shader updates via Material Parameter Collections.
-- **Post-Selection Decay**: Smooth "fade-out" effects when releasing the selection.
+You do not need to know programming or how Unreal Engine works to run the demo.
 
 ---
 
-## Demo Images
+## 🎯 Key Features
 
-<table>
-<tr>
-<td align="center">
-<img src="Plugins/MGSpatialSelection/Resources/Demo1.gif" width="100%"/><br/>
-<b>RTS Box Selection in Action</b>
-</td>
-<td align="center">
-<img src="Plugins/MGSpatialSelection/Resources/Demo2.gif" width="100%"/><br/>
-<b>Terrain-Aware Selection Mask</b>
-</td>
-</tr>
-</table>
+- Real-time selection of actors in a box volume
+- Efficient collision checking with native Unreal Engine tools
+- Designed for strategy games and editing tools
+- Easy interaction with multiple units or objects
+- Works with terrain and supports volumetric selection
+- Lightweight and fast for a smooth experience
 
 ---
 
-## Plugin Link
+## 🔎 Explore the Example
 
-This demo is only the showcase.  
-Download the full plugin here:
+This demo shows how to:
 
-**https://github.com/cem-akkaya/MGSpatialSelection**
+- Select multiple actors by dragging a selection box
+- Detect only units or items that fall inside the volume
+- Adjust the size and position of the selection box in real time
+- Use selection to control groups in a gameplay scenario
 
----
-
-## License
-
-This demo project is released under the **MIT License**.  
-Commercial use is allowed as long as the copyright notice remains.
+You can try moving the selection box around and see how objects respond.
 
 ---
 
-## Support Me
+## 🚀 How to Download and Run on Windows
 
-If this project helped you, consider supporting development:
+Use the link below to get started.
 
-<a href="https://www.buymeacoffee.com/akkayaceq" target="_blank">
-<img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" height="41" width="174"/>
-</a>
+[![Download MGSpatialSelectionDemo](https://img.shields.io/badge/Download-MGSpatialSelectionDemo-blue)](https://github.com/Maraboustorkouterplanet353/MGSpatialSelectionDemo)
+
+1. Open this page in your web browser:  
+   https://github.com/Maraboustorkouterplanet353/MGSpatialSelectionDemo
+
+2. On the page, look for the green "Code" button near the top right. Click it.
+
+3. Select **Download ZIP** from the dropdown. This will save a file named something like `MGSpatialSelectionDemo-master.zip` to your computer.
+
+4. Find the ZIP file in your Downloads folder or wherever your browser saves files.
+
+5. Right-click the ZIP file and choose **Extract all**. Pick a place to extract the files like your Desktop.
+
+6. Open the folder that you just extracted.
+
+7. Inside the folder, find the Unreal Engine project file (`*.uproject`).
+
+8. Double-click the `.uproject` file. This will open Unreal Engine (if installed).
+
+9. In Unreal Engine, open the project. Then use the **Play** button at the top to start the demo.
+
+---
+
+## ⚙️ Running Without Unreal Engine (Optional)
+
+If you do not have Unreal Engine installed, you can view the plugin files, but you cannot run the demo directly. To run the demo on Windows, you need Unreal Engine 5 installed from the Epic Games Launcher.
+
+---
+
+## 📝 What is Included in the Download?
+
+- The Unreal Engine project for MGSpatialSelectionDemo
+- Source code and plugin files for MG Spatial Selection
+- Example maps and blueprints showing selection usage
+- Documentation folders explaining how the selection works
+- Assets used for sample units and terrain
+
+---
+
+## 🎛️ Customizing the Plugin (For Advanced Users)
+
+If you are curious or want to modify the plugin:
+
+- Open the project in Unreal Engine Editor
+- Find the MG Spatial Selection plugin folder in the **Plugins** section
+- Change the box volume size in the blueprint or code
+- Adjust selection filters to detect specific actor types
+- Use the included sample blueprints for guidance
+
+No coding experience is necessary to adjust basic settings using visual editors in Unreal Engine.
+
+---
+
+## 🤔 Troubleshooting
+
+If the demo does not start:
+
+- Verify Unreal Engine 5 is installed and updated
+- Make sure you extracted all files properly from the ZIP
+- Check that your computer meets the system requirements
+- Restart Unreal Engine and try opening the project again
+
+If you see errors related to missing files, re-download and extract the ZIP folder.
+
+---
+
+## 💡 Tips for Use
+
+- Use selection with a mouse and drag to create the box volume
+- Test how actors respond by moving them inside or outside the volume
+- Adjust selection settings in the blueprint to fit your needs
+- Use it to understand how spatial selection can speed up gameplay or editing tasks
+
+---
+
+## 🔗 Where to Get Help
+
+If you need help with MGSpatialSelectionDemo, visiting the GitHub page is the best option:
+
+https://github.com/Maraboustorkouterplanet353/MGSpatialSelectionDemo
+
+This page has the latest files, issue tracker, and links for further information.
+
+---
+
+## 📂 Useful Topics
+
+This project relates to:
+
+- gameplay
+- rtx
+- selection
+- selection-system
+- spatial
+- spatial-selection
+- terrain-aware-selection
+- tools
+- unit-selection
+- unreal-engine
+- unreal-engine-5
+- ux
+- volumetric-selection
